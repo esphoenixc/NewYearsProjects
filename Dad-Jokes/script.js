@@ -5,6 +5,7 @@ jokeBtn.addEventListener("click", generateJoke);
 
 generateJoke();
 
+// Using Promise chain
 // function generateJoke() {
 //   const config = {
 //     headers: {
@@ -19,6 +20,7 @@ generateJoke();
 //     });
 // }
 
+//Using async await
 async function generateJoke() {
   const config = {
     headers: {
